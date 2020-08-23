@@ -4,7 +4,7 @@ import numpy as np
 scaler = 0.1
 
 detector = dlib.get_frontal_face_detector()  # 얼굴 디텍터 모듈 초기화
-predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')  # 얼굴 특징점 모듈 초기화 predictor은 사전에 학습된 머신러닝
+predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')  # 얼굴 landmark 모듈 초기화 predictor은 사전에 학습된 머신러닝
 
 cap = cv2.VideoCapture('img/video.mp4')
 # cap = cv2.VideoCapture(0) #웹캠 이용
@@ -68,7 +68,7 @@ while True:
     img = cv2.rectangle(img, pt1=(face.left(), face.top()), pt2=(face.right(), face.bottom()), color=(255, 255, 255),
                         thickness=2, lineType=cv2.LINE_AA)
 
-    # 얼굴 특징점은 총 68개로 68개의 점이 찍힘
+    # 얼굴 landmark는 총 68개로 68개의 점이 찍힘
     for s in shape_2d:
         cv2.circle(img, center=tuple(s), radius=1, color=(255, 255, 255), thickness=2, lineType=cv2.LINE_AA)
 
