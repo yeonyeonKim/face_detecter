@@ -6,10 +6,10 @@ scaler = 0.1
 detector = dlib.get_frontal_face_detector()  # 얼굴 디텍터 모듈 초기화
 predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')  # 얼굴 특징점 모듈 초기화 predictor은 사전에 학습된 머신러닝
 
-cap = cv2.VideoCapture('video.mp4')
+cap = cv2.VideoCapture('img/video.mp4')
 # cap = cv2.VideoCapture(0) #웹캠 이용
 # 파일 이미지를 bgra타입으로 읽기
-overlay = cv2.imread('ryan_transparent.png', cv2.IMREAD_UNCHANGED)
+overlay = cv2.imread('img/ryan_transparent.png', cv2.IMREAD_UNCHANGED)
 
 
 # 오버레이 함수
