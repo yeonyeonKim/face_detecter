@@ -1,13 +1,14 @@
 # face_detecter
-> 개요  
+> 개요   
     얼굴의 68개 landmark를 찾고, png이미지를 overlay   
 > 사용 라이브러리   
-    numpy   
-    cv2
-    dlib       
-    
+
     *dlib 학습모델 데이터
         https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2   
+    numpy   
+    dlib   
+    cv2   
+    
 > # 결과   
 * ##얼굴 영역 찾기   
  ![사각형](https://user-images.githubusercontent.com/46700771/90974504-b982bf80-e566-11ea-8b86-a2c302f36dcf.PNG)    
