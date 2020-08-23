@@ -13,7 +13,7 @@
  ![사각형](https://user-images.githubusercontent.com/46700771/90974504-b982bf80-e566-11ea-8b86-a2c302f36dcf.PNG)    
 * ##얼굴의 68개의 점        
 ![얼굴 특징점](https://user-images.githubusercontent.com/46700771/90974514-f8187a00-e566-11ea-8e29-c438ba498b4e.PNG)   
-* ##얼굴 센터와 왼쪽상단, 오른쪽하단 찾기       
+* ##얼굴 센터와 왼쪽상단, 오른쪽하단 찾기          
 ![얼굴의 센터점 추출](https://user-images.githubusercontent.com/46700771/90974543-4fb6e580-e567-11ea-86dc-75b9108d30d7.PNG)    
 * ##overlay 결과   
 ![overlay](https://user-images.githubusercontent.com/46700771/90974692-614cbd00-e568-11ea-8db8-92a969c4051c.PNG)   
