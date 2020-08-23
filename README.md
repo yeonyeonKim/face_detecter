@@ -1,7 +1,7 @@
 # face_detecter
-> #개요  
+> 개요  
     얼굴의 68개 landmark를 찾고, png이미지를 overlay   
-> #사용 라이브러리   
+> 사용 라이브러리   
     numpy   
     cv2
     dlib       
